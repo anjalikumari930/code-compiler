@@ -7,7 +7,7 @@ import spinner from "./spinner.png";
 
 function App() {
   // State variable to set users source code
-  const [userCode, setUserCode] = useState(``);
+  const [userCode, setUserCode] = useState("");
 
   // State variable to set editors default language
   const [userLang, setUserLang] = useState("python");
